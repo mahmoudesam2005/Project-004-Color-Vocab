@@ -1,0 +1,24 @@
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.container:first-of-type .box {
+    background-color: #ff0000;
+}
+
+.container:nth-of-type(2) .box {
+    background-color: #1ba8f0;
+}
+
+.container:nth-of-type(3) .box {
+    background-color: #fe791c;
+}
+
+.container:nth-of-type(4) .box {
+    background-color: #256525;
+}
+
+.container:last-of-type .box {
+    background-color: #fefd26;
+}
